@@ -24,3 +24,12 @@ Ba = [B; -D];
 K = place(Aa, Ba, [-15 -16 -17 -18]);
 
 tSamp = 0.001;
+
+% Reference
+stp = pi;
+
+% Max Voltage
+v_max = inf;
+
+% Back-calculation anti-windup gain (0 = disabled)
+Kaw = 0;
