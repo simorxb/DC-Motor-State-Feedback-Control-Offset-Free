@@ -109,7 +109,7 @@ The path is implemented in the Control System area of `DC_motor_state_feedback_c
 
 ### Key Observations
 - Without anti-windup the integrator winds up on the voltage rails and the angle overshoots by about 26%.
-- With $K_{aw} = 40$ overshoot drops to about 10%, closer to the unconstrained response, and time spent on the rails is shorter.
+- With $K_{aw} = 40$ overshoot drops to almost absent, closer to the unconstrained response, and time spent on the rails is shorter.
 - After the load-torque disturbance, the anti-windup run leaves saturation cleaner and with less current ringing.
 
 ## Key Takeaways
